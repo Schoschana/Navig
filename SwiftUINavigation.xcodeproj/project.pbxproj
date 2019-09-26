@@ -13,6 +13,8 @@
 		221AFA1C233D25CF00119E25 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AFA1B233D25CF00119E25 /* CardsView.swift */; };
 		221AFA1E233D28FE00119E25 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AFA1D233D28FE00119E25 /* IconView.swift */; };
 		221AFA20233D293E00119E25 /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AFA1F233D293E00119E25 /* IconsView.swift */; };
+		221AFA28233D424400119E25 /* SABButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AFA27233D424400119E25 /* SABButton.swift */; };
+		221AFA2E233D4EC600119E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AFA2D233D4EC600119E25 /* ViewController.swift */; };
 		A1EF117D231F8F9100908FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF117C231F8F9100908FC5 /* AppDelegate.swift */; };
 		A1EF117F231F8F9100908FC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF117E231F8F9100908FC5 /* SceneDelegate.swift */; };
 		A1EF1181231F8F9100908FC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1180231F8F9100908FC5 /* ContentView.swift */; };
@@ -31,6 +33,8 @@
 		221AFA1B233D25CF00119E25 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		221AFA1D233D28FE00119E25 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		221AFA1F233D293E00119E25 /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
+		221AFA27233D424400119E25 /* SABButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SABButton.swift; sourceTree = "<group>"; };
+		221AFA2D233D4EC600119E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1EF1179231F8F9100908FC5 /* SwiftUINavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EF117C231F8F9100908FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1EF117E231F8F9100908FC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +64,10 @@
 			children = (
 				221AFA14233D15F000119E25 /* worldView.swift */,
 				221AFA19233D252800119E25 /* TitleView.swift */,
+				221AFA27233D424400119E25 /* SABButton.swift */,
 				221AFA1D233D28FE00119E25 /* IconView.swift */,
 				221AFA1F233D293E00119E25 /* IconsView.swift */,
+				221AFA2D233D4EC600119E25 /* ViewController.swift */,
 				221AFA1B233D25CF00119E25 /* CardsView.swift */,
 				221AFA17233D249400119E25 /* CardView.swift */,
 			);
@@ -184,6 +190,8 @@
 				A1EF117D231F8F9100908FC5 /* AppDelegate.swift in Sources */,
 				A1EF117F231F8F9100908FC5 /* SceneDelegate.swift in Sources */,
 				A1EF1181231F8F9100908FC5 /* ContentView.swift in Sources */,
+				221AFA28233D424400119E25 /* SABButton.swift in Sources */,
+				221AFA2E233D4EC600119E25 /* ViewController.swift in Sources */,
 				221AFA15233D15F000119E25 /* worldView.swift in Sources */,
 				A1EF1193231F909C00908FC5 /* DetailView.swift in Sources */,
 				221AFA1E233D28FE00119E25 /* IconView.swift in Sources */,

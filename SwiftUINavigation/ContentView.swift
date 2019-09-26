@@ -8,22 +8,26 @@
 
 import SwiftUI
 import UIKit
+
+
 struct ContentView: View {
     @available(iOS 13.0, *)
     var body: some View {
         NavigationView {
             ZStack {
-                Color.red
-              
+                Color.white
+                
+               
 
                 NavigationLink(destination: DetailView()) {
                     Image(systemName: SFSymbolName.play_circle_fill).font(.largeTitle)
                     Text("подробно о нас")
-                }.foregroundColor(.white)
+                }.foregroundColor(.black)
             }.edgesIgnoringSafeArea(.all).navigationBarTitle("Главная")
         }
         
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -31,4 +35,5 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+    
 }

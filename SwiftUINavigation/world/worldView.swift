@@ -13,6 +13,7 @@ struct worldView: View {
     @available(iOS 13.0, *)
     var body: some View {
         VStack(spacing: 100) {
+           
             TitleView()
                 .offset(y: 100)
             Spacer()

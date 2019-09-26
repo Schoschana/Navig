@@ -19,18 +19,21 @@ struct DetailView: View {
             Color.gray
             VStack {
                 
-                Text("Alex").foregroundColor(.white)
-                NavigationLink(destination: worldView()) {
-                                   Image(systemName: SFSymbolName.play_circle_fill).font(.largeTitle)
-                                   Text("Album")
-                               }.foregroundColor(.white)
+                Text("").foregroundColor(.white)
+         NavigationLink(destination: worldView()) {
+            // Image(systemName: SFSymbolName.play_circle_fill).font(.largeTitle)
+                            
+            
+            
+            Text("Album")
+                        }.foregroundColor(.white)
             }.navigationBarTitle("Detail", displayMode: .inline)
                 .navigationBarItems(trailing:
                     HStack(spacing: 15) {
-                        Image(systemName: SFSymbolName.suit_heart_fill).font(.title).foregroundColor(.red)
+                        //Image(systemName: SFSymbolName.suit_heart_fill).font(.title).foregroundColor(.red)
                       NavigationLink(destination: DetailView()) {
-                                         
-                                        
+                                       
+                                                                    
                         Button(action: {
                             print("Button tapped")
                             self.isProfileViewPresented = true

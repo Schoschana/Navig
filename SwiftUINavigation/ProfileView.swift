@@ -16,6 +16,7 @@ struct ProfileView: View {
                             
             Color.purple
             VStack {
+                
                 Rectangle()
                     .frame(width: 120, height: 10)
                     .cornerRadius(30)
@@ -30,6 +31,7 @@ struct ProfileView: View {
        .padding(.bottom, UIScreen.main.bounds.height / 2)
         }.edgesIgnoringSafeArea(.all)
     }
+    
 }
 
 struct ProfileView_Previews: PreviewProvider {
